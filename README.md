@@ -1,5 +1,9 @@
 # script-azure
 
+Script criado para retornar os grupos de um usuário no Azure AD, utilizando a API Microsoft Graph.
+
+Além do script básico, aqui no README.md você encontrará alguns exemplos de como consultar dados de usuários e grupos utilizando a API Microsoft Graph executando diretamente o curl no terminal.
+
 ### Usando o script grupos_do_user.py
 
 Faça o login no Azure CLI (necessário ter a CLI Azure instalada  ```bash sudo apt-get install azure-cli```):
