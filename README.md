@@ -44,7 +44,7 @@ curl -s \
   ### Consultando dados de uma conta
 ```bash
   curl -s -H "Authorization: Bearer $GRAPH_TOKEN" \
-  "https://graph.microsoft.com/v1.0/users/nome.email@emprese.com.br?\$select=displayName,mail,jobTitle,department,officeLocation,mobilePhone,accountEnabled,createdDateTime,lastPasswordChangeDateTime" | python3 -m json.tool
+  "https://graph.microsoft.com/v1.0/users/nome.email@emprese.com.br?\$select=displayName,mail,jobTitle,department,officeLocation,mobilePhone,accountEnabled,createdDateTime,lastPasswordChangeDateTime,userPrincipalName,onPremisesSamAccountName" | python3 -m json.tool
 ```
   ### Consultando grupos de um usuário
 ```bash
